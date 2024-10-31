@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.workouts {
+  padding-top: 77px;
+}
+
+.container.workouts {
+  max-height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: white rgba(0, 0, 0, 0.3);
+}
+
+.container.workouts::-webkit-scrollbar {
+  width: 8px;
+}
+
+.container.workouts::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.container.workouts::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.custom-checkbox:checked {
+  background-color: black;
+  border-color: black;
+}
+
+.custom-checkbox:checked:after {
+  content: '';
+  position: absolute;
+  background-color: black;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: black;
+  border-color: black;
+}
